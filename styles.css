@@ -1,0 +1,118 @@
+*{
+  background-color: lightcyan;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#title, #info-adicional-encabezado,
+#tribute-info, #texto-adicional,
+#lista, li, strong,
+#cita-final, #quote, #cita,.bottom,a {
+  background-color: inherit;
+}
+
+
+#title{
+  margin: 30px;
+  font-size: 3.5em;
+}
+
+#main{
+  width: 95%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: lightslategray;
+  height: 95%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#encabezado{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: inherit;
+}
+
+
+#img-div{
+  width: 1600px;
+  height: 710px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+#image{
+  width: 900px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  max-width: 100%;
+}
+
+img{
+  display: block;
+}
+
+#tribute-info{
+  width: 80%;
+  padding: 10px;
+  background-color: inherit;
+  margin: auto;
+}
+
+#texto-adicional{
+  margin-bottom: 60px;
+  font-size: 1.1em;
+}
+
+ul{
+  text-align: left;
+  background-color: inherit;
+  max-width: 500px;
+  line-height: 1.6em;
+  margin: 0px auto;
+}
+
+li{
+  display: list-item;
+  margin: 25px;
+}
+
+#cita-final{
+  font-style: italic;
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+#quote{
+  font-size: 1.2em;
+  margin: 0px 60px;
+  padding: 20px;
+  text-align: left;
+}
+
+#cita{
+  margin: 0px 60px;
+  padding: 5px;
+  text-align: left;
+}
+
+.bottom{
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+#tribute-link{
+  text-decoration: none;
+  color: lightgreen;
+}
+
